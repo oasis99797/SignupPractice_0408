@@ -7,20 +7,24 @@
     android:orientation="vertical"
     tools:context=".EditNameActivity">
 
-    <EditText android:id="@+id/nameEdt"
+    <EditText
+        android:id="@+id/nameEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:hint="이름 입력" />
+        android:hint="이름 입력"/>
+
+    <EditText
+        android:id="@+id/birthYearEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="생년 입력 Ex. 1988" />
 
     <Button
         android:id="@+id/okBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:hint="이름 입력" />
-
-
-
+        android:text="확인" />
 
 </LinearLayout>
