@@ -12,7 +12,10 @@ class EditNameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_edit_name)
 
         okBtn.setOnClickListener {
+
+            val = inputName = nameEdt.text.toString()
             val myIntent = Intent(this, MyPageActivity::class.java)
+            myIntent.putExtra("userName", inputName)
             startActivity(myIntent)
         }
     }
