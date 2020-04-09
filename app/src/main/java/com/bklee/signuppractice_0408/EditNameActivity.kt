@@ -31,7 +31,6 @@ class EditNameActivity : AppCompatActivity() {
             myIntent.putExtra("userAge", 2020-inputBirthYear+1)
             startActivity(myIntent)
         }
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -50,8 +49,5 @@ class EditNameActivity : AppCompatActivity() {
 
             }
         }
-
-
     }
-
 }

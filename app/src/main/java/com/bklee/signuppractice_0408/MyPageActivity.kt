@@ -14,8 +14,5 @@ class MyPageActivity : AppCompatActivity() {
         val age = intent.getIntExtra("userAge", -1)
 
         userNameTxt.text = "${name} : ${age}세"
-
-
-
     }
 }
